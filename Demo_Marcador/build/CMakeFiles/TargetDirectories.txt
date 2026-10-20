@@ -1,0 +1,3 @@
+C:/Users/anton/Desktop/Demo_Marcador/build/CMakeFiles/Demo_Marcador.dir
+C:/Users/anton/Desktop/Demo_Marcador/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/anton/Desktop/Demo_Marcador/build/CMakeFiles/ZERO_CHECK.dir

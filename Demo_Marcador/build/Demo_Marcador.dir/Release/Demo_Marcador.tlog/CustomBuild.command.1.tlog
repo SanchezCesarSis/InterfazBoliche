@@ -1,0 +1,10 @@
+^C:\USERS\ANTON\DESKTOP\DEMO_MARCADOR\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\JetBrains\CLion 2026.2.3\bin\cmake\win\x64\bin\cmake.exe" -SC:/Users/anton/Desktop/Demo_Marcador -BC:/Users/anton/Desktop/Demo_Marcador/build --check-stamp-file C:/Users/anton/Desktop/Demo_Marcador/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
